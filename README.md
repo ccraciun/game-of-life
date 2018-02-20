@@ -1,6 +1,14 @@
-# Conway's game of life in 1.5 hrs
+# Conway's game of life
 
 ```bash
-run npm install
+npm install
 npm start
 ```
+
+1.5hrs time limit.
+
+Still missing:
+- control for step speed
+- control for board size
+- cell size grow/shrink to screen
+- clean up bad code
