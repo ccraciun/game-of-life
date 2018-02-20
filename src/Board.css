@@ -1,0 +1,11 @@
+.Board {
+  display: table;
+}
+
+.Row {
+  display: table-row;
+}
+
+.Cell {
+  display: table-cell;
+}
