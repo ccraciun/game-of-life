@@ -3,7 +3,6 @@ import React from 'react';
 class Control extends React.Component {
 
   run = () => {
-    debugger;
     const { onStep } = this.props;
 
     clearInterval(this.interval);

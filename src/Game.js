@@ -4,10 +4,10 @@ import Board from './Board';
 import Control from './Control';
 
 const getLiveAsInt = (board, r, c) => {
-  const it = ((board[r] || [])[c] || {alive: 0})
+  const it = (board[r] || [])[c] || {alive: 0};
 
   return it.alive;
-}
+};
 
 class Game extends React.Component {
   constructor(props) {

@@ -15,9 +15,13 @@ class Board extends React.Component {
     return (
       <div className="Board">
         {board.map((row, ridx) =>
-          <div className="Row">
+          <div
+            key={`${ridx}`}
+            className="Row"
+          >
             {row.map((cell, cidx) =>
               <Cell
+                key={`${cidx}`}
                 onClick={() => onClickCell(ridx, cidx)}
                 {...cell}
               />
